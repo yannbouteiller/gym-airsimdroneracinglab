@@ -1,6 +1,6 @@
 # Gym Game Of Drones
 
-An advanced gym environment and an Imitation-Learning dataset collector game made from the NeurIPS 2019 AirSim competition binaries
+An advanced gym environment and a Batch RL dataset collector game made from the NeurIPS 2019 AirSim competition binaries
 
 # Installation:
 
@@ -20,15 +20,15 @@ If you are just updating your installation and don't want to download them again
 python download_and_mod_airsim.py --no-download
 ```
 
-# Environment:
+# Gym Environment:
 
-The embedded gym environment is highly customizable with the config dictionary. Read the environment's code for documentation.
+The embedded gym environment is highly customizable through the config dictionary. Read the environment's code for documentation.
 
 This environment has been conceived with the RTRL framework in mind (https://arxiv.org/abs/1911.04448), and is fully compatible with its setting.
 
 # Game Of Datasets
 
-The 'Game of Drones' project has given birth to a pretty advanced gym environment. The dataset collector script turns this gym environment into a multiplayer videogame that can be used to collect imitation learning datasets in all imaginable settings, including real-time. 
+The 'Game of Drones' project has given birth to a pretty advanced gym environment. The dataset collector script turns this gym environment into a multiplayer videogame that can be used to collect Offline Reinforcement Learning datasets in all imaginable settings, including real-time. 
 
 ## Notes on the OS
 
@@ -152,7 +152,7 @@ After you are done recording, please send the dataset folder to Dong or Yann. Th
 \YOUR_PATH_TO_THIS_FOLDER\gym_game_of_drones\gym_game_of_drones\drone_racing_dataset_collector\dataset\*.pkl
 ```
 
-# Multi-Agent gym environments
+# Multi-Agent Gym environments
 
 The environment is compatible with rllib, which handles multi-agent and requires a special interface that is not (yet) a default for multiagent gym environments, as gym has initially been designed for single agent environments. The "wrapper" (not an actual gym wrapper but that cas be done easily) present in envs allows you to wrap the environment for rllib compatibilty.
 
