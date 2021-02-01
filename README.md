@@ -5,8 +5,8 @@ An advanced gym environment and an Imitation-Learning dataset collector game mad
 # Installation:
 
 ```bash
-git clone git@git.mistlab.ca:ybouteiller/gym_game_of_drones.git
-cd gym_game_of_drones
+git clone https://github.com/yannbouteiller/gym-airsimdroneracinglab.git
+cd gym-airsimdroneracinglab
 pip install -e .
 python download_and_mod_airsim.py
 ```
