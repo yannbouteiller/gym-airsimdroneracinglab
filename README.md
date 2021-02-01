@@ -20,9 +20,9 @@ If you are just updating your installation and don't want to download them again
 python download_and_mod_airsim.py --no-download
 ```
 
-# Gym Environment:
+# Gym Environment
 
-The embedded gym environment is highly customizable through the config dictionary. Read the environment's code for documentation.
+The embedded Gym environment is highly customizable through the config dictionary. Read the environment's code for documentation.
 
 This environment has been conceived with the RTRL framework in mind (https://arxiv.org/abs/1911.04448), and is fully compatible with its setting.
 
