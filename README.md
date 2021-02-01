@@ -10,6 +10,7 @@ cd gym-airsimdroneracinglab
 pip install -e .
 python download_and_mod_airsim.py
 ```
+Note0: The second command may need to be executed as administrator
 
 Note1: Execute these in this order because the second script will mod the airsimdroneracinglab installation previously performed by pip
 
