@@ -31,35 +31,6 @@ This environment has been conceived with the [RTRL framework](https://arxiv.org/
 
 The 'Game of Drones' project has given birth to a pretty advanced gym environment. The dataset collector script turns this gym environment into a multiplayer videogame that can be used to collect Offline Reinforcement Learning datasets in all imaginable settings, including real-time. 
 
-## Notes on the OS
-
-The script works on both Linux and Windows. HOWEVER, if you use the script on Linux, use the --time-step-method="JOIN" option to stay consistent with the Windows defaults (note that ideally we would use the Linux defaults, but they don't work on Windows for some reason).
-If you want to play remotely with Parsec, the host will need to be running Windows10.
-
-## How to play remotely with Parsec:
-
-To play remotely, both players can install Parsec on their machines. The host must be running on Windows10. Parsec allows both users to access the host computer with their own joystick/inputs, and provides low-latency streaming to the guest user.
-
-### Installing Parsec:
-
-You can download the Parsec installer for you OS here:
-
-```
-https://parsecgaming.com/
-```
-
-### How to use Parsec:
-
-Both players launch their Parsec application.
-
-The host (Windows10 only) generates a sharing link in the app and shares it with the guest.
-
-The guest connects to the host.
-
-The host accepts the guest's connection. Then, the host clicks the guest's name and grants him access to gamepad and/or keyboard and/or mouse.
-
-Then, execute the steps of the next section on the host PC.
-
 ## How to run the dataset collector game:
 
 ```bash
