@@ -1,6 +1,6 @@
 # Gym Game Of Drones
 
-An advanced gym environment and a Batch RL dataset collector game made from the NeurIPS 2019 AirSim competition binaries
+An advanced gym environment and a Batch RL dataset collector game made on top of the Airsim Drone Racing Lab binaries.
 
 # Installation:
 
