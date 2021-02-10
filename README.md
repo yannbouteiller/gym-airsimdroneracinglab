@@ -126,7 +126,7 @@ After you are done recording, please send the dataset folder to Dong or Yann. Th
 
 # Multi-Agent Gym environments
 
-The environment is compatible with rllib, which handles multi-agent and requires a special interface that is not (yet) a default for multiagent gym environments, as gym has initially been designed for single agent environments. The "wrapper" (not an actual gym wrapper but that cas be done easily) present in envs allows you to wrap the environment for rllib compatibilty.
+The environment is compatible with rllib, which handles multi-agent and requires a special interface that is not (yet) a default for multiagent gym environments, as gym has initially been designed for single agent environments. The "wrapper" (not an actual gym wrapper but that can be done easily) present in envs allows you to wrap the environment for rllib compatibilty.
 
 A multi-agent training should in theory lead to inference and adaptation to unknown opponent policies. A whole lot of work from OpenAI and and Deepmind shows that.
 
