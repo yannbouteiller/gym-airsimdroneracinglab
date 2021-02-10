@@ -14,7 +14,7 @@ Note 0: `python download_and_mod_airsim.py` may need to be executed as administr
 
 Note 1: Execute these in this order because the second script will mod the airsimdroneracinglab installation previously performed by pip
 
-Note 2: The AriSim competition binaries are not open source and will be downloaded by download_and_mod_airsim.py.
+Note 2: The AirSim competition binaries are not open source and will be downloaded by download_and_mod_airsim.py.
 If you are just updating your installation and don't want to download them again, use instead:
 
 ```bash
